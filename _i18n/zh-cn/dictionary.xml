@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<blocks>
+  <block id="d41d8cd98f00b204e9800998ecf8427e" category="summary"></block>
+  <block id="76461c921fd953874545c28924c497a5" category="doc">关于docs.netapp.com站点</block>
+  <block id="55ff05b2fa7e1012dea362f024c523d4" category="video-title">站点导览</block>
+  <block id="f24f9b19509f19811927c2c5108eb69f" category="example-title">文字记录</block>
+  <block id="001451b8eac2d5ba56f77c33e6058082" category="list-text">&amp;&amp;91;0:01&amp;#93;</block>
+  <block id="4ade6453893cfbe2522908af64833211" category="list-text">你(们)好。我是来自docs.netapp.com团队的Ben。在本视频中、我们将介绍docs.netapp.com上提供的特性和功能、帮助您充分利用内容观看体验。</block>
+  <block id="0563c9ce91e1c11d6ad29a8969b5f33a" category="list-text">&amp;#91；0：12&amp;#93；</block>
+  <block id="0e211f38bb42111667c024142b66f04f" category="list-text">让我们从查找您要查找的内容开始。输入文档网站后、您可以使用网站左侧进行导航。</block>
+  <block id="8f93d656e679ff035d090620e75b413c" category="list-text">&amp;#91；0：20&amp;#93；</block>
+  <block id="8dccc52d59eeb736d56dd1b6b44802c9" category="list-text">如果文档有多个版本、您可以为所使用的产品版本选择相应的文档。</block>
+  <block id="aa34fdc7e388719caf41006108441b71" category="list-text">&amp;#91；0：28&amp;#93；</block>
+  <block id="dd7e3c5a91863520509b8bd47b5fb184" category="list-text">使用搜索框在文档站点中查找内容。例如、我想了解卷加密的工作原理。</block>
+  <block id="600e453e197e97d216bb3d993a8a0fb0" category="list-text">&amp;#91；0：36&amp;#93；</block>
+  <block id="8e04744bf4ce3a99c048afd6dcc9f44b" category="list-text">如果您更喜欢浏览文档、则可以使用目录、该目录按逻辑分组进行组织、例如入门和产品使用。</block>
+  <block id="df50a755abbfca8d747a3b88f08ae781" category="list-text">&amp;#91；0：45&amp;#93；</block>
+  <block id="154b5fdb7571773817017921e46ae33d" category="list-text">如果要转到另一个文档站点、可以使用导航点浏览docs.netapp.com。</block>
+  <block id="3b0992758991e1911574d554d3026cb8" category="list-text">&amp;#91；0：50&amp;#93；</block>
+  <block id="31278ba45f6e1d30f6f231f3e5f1a36d" category="list-text">找到要查找的内容后、您可以使用一些关键功能来帮助您与内容进行交互。</block>
+  <block id="68c77cb943dbfc9eae43a6815a972242" category="list-text">&amp;#91；0：58&amp;#93；</block>
+  <block id="6cb3e320d779a4a61d2879df5bd84e9f" category="list-text">大多数文档站点都提供多种不同的语言版本、因此您可以使用首选语言阅读文档。</block>
+  <block id="3bad7aa8d678bd594b1538b0dd2b86b3" category="list-text">&amp;&amp;91;1:05&amp;#93;</block>
+  <block id="1688c88768c109f923e65f29244c8d09" category="list-text">如果一个页面包含多个部分、您可以使用"在此页面上"链接直接转到所需的内容。这些链接还会标识您在页面上的位置、这有助于您在滚动时跟踪页面。</block>
+  <block id="167973d06e8c4ea7919a95c0c2d227e2" category="list-text">&amp;&amp;91;1:20&amp;#93;</block>
+  <block id="731678ea16207e95dd4c230e861e27ce" category="list-text">要仅关注内容本身、您可以折叠左侧和右侧边栏。完成后、展开它们以再次查看导航控件。</block>
+  <block id="4541b5b3e42f7185d574faa374d10061" category="list-text">&amp;#91；1：33&amp;#93；</block>
+  <block id="bc382af4f7df607310494c6a0db0da6d" category="list-text">如果您需要脱机阅读文档、可以下载整个文档网站或网站中各个部分的PDF。</block>
+  <block id="66dc9ca0ecb6d1cde3f5e646f3c1cb4e" category="list-text">&amp;&amp;91;1:41&amp;#93;</block>
+  <block id="11a4aef0f88e6d42f746f1e3807e1f0e" category="list-text">NetApp文档是开源文档、旨在允许使用GitHub帐户进行社区贡献。提交您的反馈以请求更新文档或直接自行编辑内容、这些内容会在合并前提交给NetApp内容主管。</block>
+  <block id="e2e5b6519329388ecd5fe4124aa00f5e" category="list-text">&amp;&amp;91;1:59&amp;#93;</block>
+  <block id="cae12efe5fddc5b227738098a513f050" category="list-text">在我们某些云服务的文档站点上、您可能会看到一个云提供商选项、可用于根据特定云提供商筛选文档。例如、如果您选择Microsoft Azure、则只会看到适用场景Azure的内容。其他云提供商的内容不会显示。</block>
+  <block id="23e64bc66c69ac4a936da68a4a09fae5" category="list-text">&amp;#91；2：18&amp;#93；</block>
+  <block id="de57fe86208320d05e4f48a11939d075" category="list-text">由于您可能会从平板电脑、移动设备或桌面访问我们的内容、因此我们会使用响应式布局来确保文档在任何设备上都能正常显示。</block>
+  <block id="fd46289ab456ebe6dc0adaa20d398b2b" category="list-text">&amp;#91；2：28&amp;#93；</block>
+  <block id="c7f671298576d5432049913e0335f76f" category="list-text">就是这样。我们希望您喜欢使用这些功能、并感谢您加入我们的内容社区。</block>
+  <block id="30d965eef5ba25c6b9998ae38270b43e" category="doc">法律声明</block>
+  <block id="e9c44bbfd795a5d63d74c6a77afee70d" category="paragraph">法律声明提供对版权声明、商标、专利等的访问。</block>
+  <block id="6016a2b341113bf496b719905398ecd2" category="section-title">版权</block>
+  <block id="52009bb7ee17227f566cd26a02caee56" category="inline-link-macro"><block ref="52009bb7ee17227f566cd26a02caee56" category="inline-link-rx"></block></block>
+  <block id="a1a9afcf552a769c282769271829889a" category="paragraph"><block ref="a1a9afcf552a769c282769271829889a" category="inline-link-macro-rx"></block></block>
+  <block id="126a02652da6de02962cf1b654fd6376" category="section-title">商标</block>
+  <block id="c4ce4761e466527d26b3e3d5ed1006fd" category="paragraph">NetApp 、 NetApp 徽标和 NetApp 商标页面上列出的标记是 NetApp 、 Inc. 的商标。其他公司和产品名称可能是其各自所有者的商标。</block>
+  <block id="f99aa604031e5049799e73b5c3748a98" category="inline-link-macro"><block ref="f99aa604031e5049799e73b5c3748a98" category="inline-link-rx"></block></block>
+  <block id="5d545fe5152641e2ebe654e336e520e5" category="paragraph"><block ref="5d545fe5152641e2ebe654e336e520e5" category="inline-link-macro-rx"></block></block>
+  <block id="be89498d2f8a22ce47c02ba9795fe2af" category="section-title">专利</block>
+  <block id="d0b19d36be2c5f16e9aef46c8a452d3d" category="paragraph">有关 NetApp 拥有的专利的最新列表，请访问：</block>
+  <block id="88e5eabd3917048b6927c42496b98f86" category="inline-link-macro"><block ref="88e5eabd3917048b6927c42496b98f86" category="inline-link-rx"></block></block>
+  <block id="dd38f906b37d412de7d1c1dcf4cbf31c" category="paragraph"><block ref="dd38f906b37d412de7d1c1dcf4cbf31c" category="inline-link-macro-rx"></block></block>
+  <block id="56c34c6410dd45c5cec44149ad0ce037" category="section-title">隐私政策</block>
+  <block id="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-macro"><block ref="8acb58cbd50ef1b468a020ee0bd351d3" category="inline-link-rx"></block></block>
+  <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
+  <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">开放源代码</block>
+  <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">通知文件提供有关 NetApp 软件中使用的第三方版权和许可证的信息。</block>
+  <block id="a415b3159b192a5228f36d0322ee9f1d" category="doc">关于docs.netapp.com</block>
+  <block id="4fbdf2eea8c892890a6818b154ed392b" category="sidebar">关于站点</block>
+</blocks>
