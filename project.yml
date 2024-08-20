@@ -11,5 +11,7 @@ sidebar:
   entries:
   - title: 关于站点
     url: "/docs-netapp-com.html"
+  - title: 关于文档(AI驱动的助手)
+    url: "/doc-gen-ai-assistant.html"
   - title: 法律声明
     url: "/legal-notices.html"

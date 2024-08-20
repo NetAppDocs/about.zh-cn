@@ -54,4 +54,40 @@
   <block id="ed014929fa6d1e2a7b2cd335f40c42b6" category="list-text">1时59分</block>
   <block id="371c69895ec495bb0ba900238d0dfde0" category="list-text">2时18分</block>
   <block id="47a2020d68d5f7d8f999b3bf89a03c1a" category="list-text">2时28分</block>
+  <block id="7fdfed3604c999e7ce591c35bf9ca1e3" category="summary">DOC是我们在docs.netapp.com上提供的由人工智能驱动的生成性助手。DOC用于回答有关NetApp产品的问题。例如、Doc可以回答有关多云环境的NetApp存储效率功能或备份和恢复最佳实践的问题。</block>
+  <block id="47fcebf3dc368732bbe8a2eaabac815e" category="doc">NetApp生成型AI助理使用条款</block>
+  <block id="7cfd7e3238c2a852ea2f82c03119feb6" category="paragraph">此测试版的Doc通过算法生成的内容可能包含错误或不准确之处。所有生成的内容应仅用作起点。您应始终参考NetApp的官方产品文档来验证Doc的回答。依赖文档生成的回复的任何风险均由您自行承担、NetApp对仅使用文档生成的回复可能发生的任何问题或困难概不负责。</block>
+  <block id="229eb04083e06f419f9ac494329f957d" category="section-title">条件</block>
+  <block id="ed9f05b554b94c74deffa021f0c45818" category="paragraph">使用Doc即表示您同意在生成内容和回复时遵守以下规则和规定。如果不遵守这些条款、可能会导致无法使用Doc.</block>
+  <block id="1492b263677041177b75767d2dbc780b" category="list-text">请勿尝试使用Doc制作可能导致伤害、滥用、暴力或欺骗的内容。</block>
+  <block id="977674521e01e951ee7b77e735caa1d1" category="list-text">请勿尝试让文档参与超出其预期目的范围的对话、或者获取与NetApp产品无关的问题的答案。</block>
+  <block id="82ec2cd6fda87713f588da75c3b1d0ed" category="section-title">功能</block>
+  <block id="a8d0ffdd3caa441024af945401c069ea" category="list-text">DOC不是大象，而是有着相当的回忆。</block>
+  <block id="82ccd5b48bcf83ad98f41b4183b07184" category="paragraph">大多数情况下、Doc都会记住并关注您正在讨论的内容。如果Doc无法跟踪某个对话，您可以在同一个文本交谈会话中启动一个新的对话。</block>
+  <block id="bfef452160ef7b86bf242e0d2bdd357c" category="list-text">Doc是一位非常有读者的人。</block>
+  <block id="0e355d29fd3887f49661d3802e1ea25a" category="paragraph">每当我们的文档在docs.netapp.com上发布时(这种情况很多)、Doc都会读取并引用这些文档以生成其响应。Doc学习的速度令人惊叹。</block>
+  <block id="2a7bcb95eb0d0f227b37fb6ec8680c19" category="list-text">DOC是顾问式的。</block>
+  <block id="61f8e1f531f123a4df97c1f7782918c8" category="paragraph">除了您提出的问题之外、DOC还会为您可能需要提出的问题提供建议。</block>
+  <block id="1408f478bd58d496e88744dadf1a02b1" category="list-text">DOC是沟通性的。</block>
+  <block id="d0ce116c1cb9fcbf3cb66f15552cce02" category="paragraph">DOC分享了有关其如何生成回复的见解、让您有机会重新表述您的问题。</block>
+  <block id="e646e16bee8b32e6ea29e30d01970a6c" category="section-title">限制</block>
+  <block id="8c9258587429e6e6438d30caf456ff3a" category="list-text">如果NetApp产品具有多个版本的文档、则文档仅引用最新版本来帮助生成答案。</block>
+  <block id="ea0bceffd7bdc127834a19dba6a4000c" category="list-text">在测试期间、文档并不会参考所有NetApp产品的所有文档。DOC仅指部分文档、包括但不限于ONTAP和BlueXP  文档、以帮助生成答案。</block>
+  <block id="4634b38da377884324963fff9cf5bd2f" category="list-text">虽然文档可以提供其他语言的回复、但文档尚未阅读非英语版本的NetApp产品文档。为确保您获得尽可能准确的信息、请始终以英语验证文档的回答。</block>
+  <block id="a0d4cc0f54602c3f247c72f15a7d2dbf" category="section-title">提示</block>
+  <block id="55014c9dfa0b6fb12f159a872f65dc2a" category="list-text">DOC喜欢特定问题。</block>
+  <block id="39af031d661a8d60c6eb934145542f88" category="paragraph">当您明确引用产品名称、界面(例如GUI或API)和版本时、DOC可提供更好的响应。例如：_System Manager中应执行哪些步骤才能从ONTAP 9.8升级到ONTAP 9.12.1？_</block>
+  <block id="ae5ba765952a9c408e513612743afd2d" category="list-text">需要了解如何做一些事情？</block>
+  <block id="da5f06b84806d0f43edbcdf8ab9140e3" category="paragraph">考虑让文档包含这些步骤。不要问文档_如何在不使用互联网的情况下安装BlueXP  连接器？_请尝试询问_在不使用互联网的情况下安装BlueXP  连接器应遵循哪些步骤？_</block>
+  <block id="1fb87efde9d27c81852aef738416fea5" category="list-text">提出简单的问题。</block>
+  <block id="56a8772e302d94cfd17246eecc01b02a" category="paragraph">如果您需要提出一个复杂的问题、请将其细分为几个小问题(这有时称为连锁式问题)。在聊天会话期间、Doc会注意并记住您提出的问题。</block>
+  <block id="546f372fd0732757db387209bc7e5e4e" category="paragraph">不要问Doc _如何在BlueXP  中配置勒索软件保护和备份计划？_尝试_在BlueXP  中配置勒索软件保护的步骤是什么？_和_在BlueXP  中配置备份计划的步骤是什么？_</block>
+  <block id="f2e25aa9036d6798312b7ccb5891aa13" category="list-text">使用引号澄清您希望Doc注意Doc可能会误解的多字短语的情况。</block>
+  <block id="c2831909c9ecc0befad064d2ee8566ff" category="paragraph">例如、如果您询问Doc _how is storage 킧 싊 calculated in ONTAP？_、那么可能Doc会认为您是在问两个不相关的词语、即存储和效率。为了确保Doc了解您询问的是(称为概念)存储效率、请将该短语用引号括起来、如下所示：_how is "storage 킧 싊" calculated in ONTAP？_</block>
+  <block id="af86dd4b829e0feb137a94ed8e9ec7eb" category="paragraph">如果您正在与人交谈、您可能会强调这句话、可能会使用空引号、或以某种方式表明区别的姿态。将双引号视为有助于Doc了解您所说内容的一种姿态。</block>
+  <block id="e423d49b947f8deb0f39c1fc9aa13006" category="list-text">回复后、Doc将提供有关其响应生成方式的见解。保持好奇心。</block>
+  <block id="4ad038ec67eddd3dd262b131a2914027" category="paragraph">尝试不同的提问方式和方法。如果您未获得所需的结果、请尝试改写您的问题。</block>
+  <block id="bea4c2c8eb82d05891ddd71584881b56" category="section-title">反馈</block>
+  <block id="39f370d8d247a2c0eb7047953bdd4740" category="paragraph">我们正在努力不断改进Doc.请在Doc的聊天窗口内向我们发送反馈。如果Doc的回答准确且有用、或者不完整或不充分、请告知我们。如果您对Doc的能力或回复有任何疑问或顾虑、也可以发送电子邮件至：ng-doccoments@netapp.com [联系我们]。</block>
+  <block id="043395774d0b5e5fa6d8e5cd9b8ce5a2" category="sidebar">关于文档(AI驱动的助手)</block>
 </blocks>
