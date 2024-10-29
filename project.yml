@@ -6,12 +6,16 @@ settings:
   prod:
     pdf_enabled: false
     harmony_enabled: false
-  langs: zh-cn,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-tw
+  langs: zh-cn,us-en,ja-jp,ko-kr,zh-tw,de-de,es-es,fr-fr,it-it
 sidebar:
   entries:
   - title: 关于站点
     url: "/docs-netapp-com.html"
   - title: 关于文档(AI驱动的助手)
-    url: "/doc-gen-ai-assistant.html"
+    entries:
+    - title: 功能和限制
+      url: "/doc-gen-ai-assistant.html"
+    - title: 使用条款
+      url: "/doc-gen-ai-assistant-terms-of-use.html"
   - title: 法律声明
     url: "/legal-notices.html"

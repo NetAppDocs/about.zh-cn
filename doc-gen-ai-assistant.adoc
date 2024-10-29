@@ -1,10 +1,10 @@
 ---
 sidebar: sidebar 
 permalink: doc-gen-ai-assistant.html 
-keywords:  
-summary: DOC是我们在docs.netapp.com上提供的由人工智能驱动的生成性助手。DOC用于回答有关NetApp产品的问题。例如、Doc可以回答有关多云环境的NetApp存储效率功能或备份和恢复最佳实践的问题。 
+keywords: netapp, generative ai, doc 
+summary: NetApp生成AI驱动的助手文档可从docs.ocs.com获得NetApp。DOC仅使用此站点上发布的内容来回答有关NetApp产品的问题。DOC不使用其他NetApp站点或公共互联网上的内容来回答问题。 
 ---
-= NetApp生成型AI助理使用条款
+= NetApp生成型AI驱动的助手概述
 :hardbreaks:
 :allow-uri-read: 
 :icons: font
@@ -13,19 +13,7 @@ summary: DOC是我们在docs.netapp.com上提供的由人工智能驱动的生�
 
 
 [role="lead"]
-DOC是我们在docs.netapp.com上提供的由人工智能驱动的生成性助手。DOC用于回答有关NetApp产品的问题。例如、Doc可以回答有关多云环境的NetApp存储效率功能或备份和恢复最佳实践的问题。
-
-此测试版的Doc通过算法生成的内容可能包含错误或不准确之处。所有生成的内容应仅用作起点。您应始终参考NetApp的官方产品文档来验证Doc的回答。依赖文档生成的回复的任何风险均由您自行承担、NetApp对仅使用文档生成的回复可能发生的任何问题或困难概不负责。
-
-
-
-== 条件
-
-使用Doc即表示您同意在生成内容和回复时遵守以下规则和规定。如果不遵守这些条款、可能会导致无法使用Doc.
-
-* 请勿尝试使用Doc制作可能导致伤害、滥用、暴力或欺骗的内容。
-* 请勿尝试让文档参与超出其预期目的范围的对话、或者获取与NetApp产品无关的问题的答案。
-
+由NetApp生成的AI驱动的助手"Doc"可从NetApp．com获得。DOC仅使用此站点上发布的内容来回答有关NetApp产品的问题。DOC不使用其他NetApp站点或公共互联网上的内容来回答问题。
 
 
 
@@ -53,8 +41,10 @@ DOC分享了有关其如何生成回复的见解、让您有机会重新表述�
 
 == 限制
 
+* DOC仅使用docs.docs.com.com上发布的内容NetApp生成答案。DOC不会从其他NetApp网站上发布的内容生成答案。
+* 在测试期间、文档并不会参考所有NetApp产品的所有文档。DOC仅指部分文档、包括但不限于ONTAP、BlueXP 、StorageGRID、Keystone和SnapCenter文档、以帮助您找到答案。如果您要查找文档不知道的信息、请发送电子邮件至：ng) doccoments@NetApp．com[告诉我们]。
 * 如果NetApp产品具有多个版本的文档、则文档仅引用最新版本来帮助生成答案。
-* 在测试期间、文档并不会参考所有NetApp产品的所有文档。DOC仅指部分文档、包括但不限于ONTAP和BlueXP  文档、以帮助生成答案。
+* DOC不会参考您所在的页面来假设您感兴趣的产品。请尽可能具体地回答您的问题、并提及产品名称和版本。
 * 虽然文档可以提供其他语言的回复、但文档尚未阅读非英语版本的NetApp产品文档。为确保您获得尽可能准确的信息、请始终以英语验证文档的回答。
 
 
