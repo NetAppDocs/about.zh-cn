@@ -85,7 +85,6 @@
   <block id="e423d49b947f8deb0f39c1fc9aa13006" category="list-text">回复后、Doc将提供有关其响应生成方式的见解。保持好奇心。</block>
   <block id="4ad038ec67eddd3dd262b131a2914027" category="paragraph">尝试不同的提问方式和方法。如果您未获得所需的结果、请尝试改写您的问题。</block>
   <block id="bea4c2c8eb82d05891ddd71584881b56" category="section-title">反馈</block>
-  <block id="39f370d8d247a2c0eb7047953bdd4740" category="paragraph">我们正在努力不断改进Doc.请在Doc的聊天窗口内向我们发送反馈。如果Doc的回答准确且有用、或者不完整或不充分、请告知我们。如果您对Doc的能力或回复有任何疑问或顾虑、也可以发送电子邮件至：ng-doccoments@netapp.com [联系我们]。</block>
   <block id="043395774d0b5e5fa6d8e5cd9b8ce5a2" category="sidebar">关于文档(AI驱动的助手)</block>
   <block id="defcec3c682659592679e8272cd2e9b5" category="summary">DOC是我们在docs.netapp.com上提供的由人工智能驱动的生成性助手。DOC旨在使用docs.docs.com上发布的内容来回答有关NetApp产品的问题NetApp。例如、Doc可以回答有关多云环境的NetApp存储效率功能或备份和恢复最佳实践的问题。</block>
   <block id="3ac8c79d6a5b493f652fb0b8461750c8" category="doc">NetApp生成AI驱动的助手使用条款</block>
@@ -93,8 +92,9 @@
   <block id="da83087ce1e5e3d3a31ddadde291fcd7" category="doc">NetApp生成型AI驱动的助手概述</block>
   <block id="402fe4efa3c4cc0d6ede3f565f0bc06d" category="paragraph">由NetApp生成的AI驱动的助手"Doc"可从NetApp．com获得。DOC仅使用此站点上发布的内容来回答有关NetApp产品的问题。DOC不使用其他NetApp站点或公共互联网上的内容来回答问题。</block>
   <block id="74f4a4764082dcf42186f10b47664954" category="list-text">DOC仅使用docs.docs.com.com上发布的内容NetApp生成答案。DOC不会从其他NetApp网站上发布的内容生成答案。</block>
-  <block id="9b0e72a3de618b5a1f6d4ebdecc32134" category="list-text">在测试期间、文档并不会参考所有NetApp产品的所有文档。DOC仅指部分文档、包括但不限于ONTAP、BlueXP 、StorageGRID、Keystone和SnapCenter文档、以帮助您找到答案。如果您要查找文档不知道的信息、请发送电子邮件至：ng) doccoments@NetApp．com[告诉我们]。</block>
   <block id="44c830e5279537009e37c5f1d7e33426" category="list-text">DOC不会参考您所在的页面来假设您感兴趣的产品。请尽可能具体地回答您的问题、并提及产品名称和版本。</block>
   <block id="ffa82bc3c7eca2bab1fae02c80ab8216" category="sidebar">功能和限制</block>
   <block id="b5b7b6c5b5f08dd62ed2dc52c7a4cfe8" category="sidebar">使用条款</block>
+  <block id="858a13328205a50b4d4ea7a8e790b8b7" category="paragraph">我们正在努力不断改进Doc.请在Doc的聊天窗口内向我们发送反馈。如果Doc的回答准确且有用、或者不完整或不充分、请告知我们。如果您对NetApp的能力或回复有任何疑问或顾虑、也可以发送电子邮件至：ng—doccomments@Doc.com[联系我们]。</block>
+  <block id="9ad4361a0d51af27ebbe2cc42d8b064b" category="list-text">在测试期间、文档并不会参考所有NetApp产品的所有文档。DOC仅指部分文档、包括但不限于ONTAP、BlueXP 、StorageGRID、Keystone和SnapCenter文档、以帮助您找到答案。如果您要查找文档不知道的信息、请发送电子邮件至：ng—doccomments@NetApp．com[告诉我们]。</block>
 </blocks>
