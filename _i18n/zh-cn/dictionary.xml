@@ -72,8 +72,6 @@
   <block id="78d84dc38711d923fa1dc1351e7e5a90" category="section-title">范围和限制</block>
   <block id="e02e8d81102c18e5ac8688f45881ccb4" category="paragraph">DOC只能根据docs.docs.com上发布的精选内容回答问题NetApp。</block>
   <block id="ac9a966db57853c0bb3b03769804fffe" category="admonition">在此测试阶段、文档不会针对所有docs.docs.com.com NetApp内容进行培训。DOC可以回答有关内容的问题、包括但不限于ONTAP、BlueXP 、StorageGRID、Keystone和SnapCenter内容。如果您需要文档没有的信息、请告知我们。</block>
-  <block id="5cce09c2cd6acff384726d4c5913b10a" category="list-text">如果未指定产品版本、Doc将根据最新发布的版本回答问题。如果需要、您可以在问题中指定早期版本。</block>
-  <block id="ba2e07590de589acb6827cadda0ba814" category="list-text">当您提出问题时、DOC不知道您所在的页面。为了获得最佳效果、请具体说明产品名称和版本。</block>
   <block id="d3aab3cd74c1c5868499ccc53ebe0a75" category="list-text">DOC可以使用docs.docs.com.com上支持的语言进行聊天NetApp、但未接受非英语版本的培训。</block>
   <block id="e4a95039ccdfb7b85c839ab71de68d99" category="section-title">编写良好的提示</block>
   <block id="b0d6ece087301f0de0e69fb8d2e2b5ec" category="paragraph">请按照以下提示操作、以获得最佳的Doc体验。</block>
@@ -98,4 +96,6 @@
   <block id="e10d7022bccbf44b070810cd5909184e" category="list-text">清除聊天历史记录</block>
   <block id="3508984ba8ee3276c733e57293128c50" category="list-text">如果要更改主题、请在开始时清除聊天。由于Doc会记住之前的问题、因此主题更改可能会产生意外结果。</block>
   <block id="5ac85d6acb2d0e353a29dbf8a61e4a47" category="paragraph">您的反馈有助于我们改进Doc的响应方式。使用文档聊天窗口中的反馈工具告知我们答案是否准确、有用、或者是否需要改进。您也可以发送电子邮件至：ng)注释@NetApp．com[与我们联系](如有问题或反馈)。</block>
+  <block id="430fdc9d9149c8cc43c466b7320e92b9" category="list-text">Doc 仅根据产品最新发布的版本回答问题。例如，如果产品有 1.0 版和 2.0 版的文档，Doc 仅参考最新的 2.0 版文档。</block>
+  <block id="9f1b245deb3e474f47cde2de8fa217be" category="list-text">为了获得最佳效果，请务必使用具体的产品名称。Doc知道您提问时在哪个页面，但这只是 Doc 在制定答案时考虑的几个因素之一。</block>
 </blocks>
