@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: doc-gen-ai-assistant.html 
 keywords: netapp, generative ai, doc 
-summary: doc是docs.ap.dom上提供的NetApp AI助手NetApp。它仅使用此站点中的内容来回答问题。DOC不使用其他NetApp站点或公共互联网上的内容来回答问题。 
+summary: DOC是我们在docs.netapp.com上提供的由人工智能驱动的生成性助手。DOC旨在使用docs.docs.com上发布的内容来回答有关NetApp产品的问题NetApp。 
 ---
 = NetApp生成型AI驱动的助手概述
 :hardbreaks:
@@ -13,7 +13,7 @@ summary: doc是docs.ap.dom上提供的NetApp AI助手NetApp。它仅使用此站
 
 
 [role="lead"]
-doc是docs.ap.dom上提供的NetApp AI助手NetApp。它仅使用此站点中的内容来回答问题。DOC不使用其他NetApp站点或公共互联网上的内容来回答问题。
+DOC是我们在docs.netapp.com上提供的由人工智能驱动的生成性助手。DOC旨在使用docs.docs.com上发布的内容来回答有关NetApp产品的问题NetApp。
 
 DOC可以根据以前的问题构建答案、建议其他问题、并说明如何生成答案。这使其成为浏览NetApp文档的宝贵工具。
 
@@ -24,7 +24,7 @@ DOC可以根据以前的问题构建答案、建议其他问题、并说明如�
 DOC只能根据docs.docs.com上发布的精选内容回答问题NetApp。
 
 
-NOTE: 在此测试阶段、文档不会针对所有docs.docs.com.com NetApp内容进行培训。DOC可以回答有关内容的问题、包括但不限于ONTAP、BlueXP 、StorageGRID、Keystone和SnapCenter内容。如果您需要文档没有的信息、请告知我们。
+NOTE: 在 Beta 阶段，Doc 会使用 docs.netapp.com 上发布的大部分（但并非全部）内容来回答问题。Doc熟悉所有ONTAP、 BlueXP、 StorageGRID、E 系列、 Keystone和SnapCenter文档，并使用它们来回答有关这些产品的问题。另一方面，Doc 并不熟悉某些旧版产品的文档。例如，Doc 不使用SnapDrive for UNIX文档来提供答案。在整个 Beta 阶段，我们都在努力完善 Doc 的知识。如果您需要 Doc 所没有的信息，请发送电子邮件至 mailto:ng-doccomments@netapp.com[告知我们]。
 
 * Doc 仅根据产品最新发布的版本回答问题。例如，如果产品有 1.0 版和 2.0 版的文档，Doc 仅参考最新的 2.0 版文档。
 * 为了获得最佳效果，请务必使用具体的产品名称。Doc知道您提问时在哪个页面，但这只是 Doc 在制定答案时考虑的几个因素之一。
@@ -85,11 +85,11 @@ NOTE: 在此测试阶段、文档不会针对所有docs.docs.com.com NetApp内�
 ====
 --
 查看文档的响应方式。:: 回复后、Doc将提供有关其响应生成方式的见解。这可以为您提供有关如何细化问题以获得所需结果的想法。
-清除聊天历史记录:: 如果要更改主题、请在开始时清除聊天。由于Doc会记住之前的问题、因此主题更改可能会产生意外结果。
+清除聊天历史记录:: 如果您想更改主题（例如，想询问其他产品），请清除聊天记录以开始新的会话。如果您在开始新主题之前没有清除聊天记录，可能会得到不准确的结果。
 
 
 
 
 == 反馈
 
-您的反馈有助于我们改进Doc的响应方式。使用文档聊天窗口中的反馈工具告知我们答案是否准确、有用、或者是否需要改进。您也可以发送电子邮件至：ng)注释@NetApp．com[与我们联系](如有问题或反馈)。
+我们正在努力不断改进Doc.请在Doc的聊天窗口内向我们发送反馈。如果Doc的回答准确且有用、或者不完整或不充分、请告知我们。如果您对NetApp的能力或回复有任何疑问或顾虑、也可以发送电子邮件至：ng—doccomments@Doc.com[联系我们]。

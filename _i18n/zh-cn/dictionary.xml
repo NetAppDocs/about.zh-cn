@@ -67,11 +67,9 @@
   <block id="ffa82bc3c7eca2bab1fae02c80ab8216" category="sidebar">功能和限制</block>
   <block id="b5b7b6c5b5f08dd62ed2dc52c7a4cfe8" category="sidebar">使用条款</block>
   <block id="858a13328205a50b4d4ea7a8e790b8b7" category="paragraph">我们正在努力不断改进Doc.请在Doc的聊天窗口内向我们发送反馈。如果Doc的回答准确且有用、或者不完整或不充分、请告知我们。如果您对NetApp的能力或回复有任何疑问或顾虑、也可以发送电子邮件至：ng—doccomments@Doc.com[联系我们]。</block>
-  <block id="0d170dccad1565dabf52d4a404e9f01e" category="summary">doc是docs.ap.dom上提供的NetApp AI助手NetApp。它仅使用此站点中的内容来回答问题。DOC不使用其他NetApp站点或公共互联网上的内容来回答问题。</block>
   <block id="6179d3ef872af4eb960f4c34232845fc" category="paragraph">DOC可以根据以前的问题构建答案、建议其他问题、并说明如何生成答案。这使其成为浏览NetApp文档的宝贵工具。</block>
   <block id="78d84dc38711d923fa1dc1351e7e5a90" category="section-title">范围和限制</block>
   <block id="e02e8d81102c18e5ac8688f45881ccb4" category="paragraph">DOC只能根据docs.docs.com上发布的精选内容回答问题NetApp。</block>
-  <block id="ac9a966db57853c0bb3b03769804fffe" category="admonition">在此测试阶段、文档不会针对所有docs.docs.com.com NetApp内容进行培训。DOC可以回答有关内容的问题、包括但不限于ONTAP、BlueXP 、StorageGRID、Keystone和SnapCenter内容。如果您需要文档没有的信息、请告知我们。</block>
   <block id="d3aab3cd74c1c5868499ccc53ebe0a75" category="list-text">DOC可以使用docs.docs.com.com上支持的语言进行聊天NetApp、但未接受非英语版本的培训。</block>
   <block id="e4a95039ccdfb7b85c839ab71de68d99" category="section-title">编写良好的提示</block>
   <block id="b0d6ece087301f0de0e69fb8d2e2b5ec" category="paragraph">请按照以下提示操作、以获得最佳的Doc体验。</block>
@@ -94,8 +92,9 @@
   <block id="bd6aea123f1cd8db72d8427cac215429" category="list-text">查看文档的响应方式。</block>
   <block id="afae99cf2edf2a9320bf47938ace301b" category="list-text">回复后、Doc将提供有关其响应生成方式的见解。这可以为您提供有关如何细化问题以获得所需结果的想法。</block>
   <block id="e10d7022bccbf44b070810cd5909184e" category="list-text">清除聊天历史记录</block>
-  <block id="3508984ba8ee3276c733e57293128c50" category="list-text">如果要更改主题、请在开始时清除聊天。由于Doc会记住之前的问题、因此主题更改可能会产生意外结果。</block>
-  <block id="5ac85d6acb2d0e353a29dbf8a61e4a47" category="paragraph">您的反馈有助于我们改进Doc的响应方式。使用文档聊天窗口中的反馈工具告知我们答案是否准确、有用、或者是否需要改进。您也可以发送电子邮件至：ng)注释@NetApp．com[与我们联系](如有问题或反馈)。</block>
   <block id="430fdc9d9149c8cc43c466b7320e92b9" category="list-text">Doc 仅根据产品最新发布的版本回答问题。例如，如果产品有 1.0 版和 2.0 版的文档，Doc 仅参考最新的 2.0 版文档。</block>
   <block id="9f1b245deb3e474f47cde2de8fa217be" category="list-text">为了获得最佳效果，请务必使用具体的产品名称。Doc知道您提问时在哪个页面，但这只是 Doc 在制定答案时考虑的几个因素之一。</block>
+  <block id="01dc3c6efffd9690ac127c076429711d" category="summary">DOC是我们在docs.netapp.com上提供的由人工智能驱动的生成性助手。DOC旨在使用docs.docs.com上发布的内容来回答有关NetApp产品的问题NetApp。</block>
+  <block id="d713ad74bfa1e904a5cc9d0540fed7ba" category="admonition">在 Beta 阶段，Doc 会使用 docs.netapp.com 上发布的大部分（但并非全部）内容来回答问题。Doc熟悉所有ONTAP、 BlueXP、 StorageGRID、E 系列、 Keystone和SnapCenter文档，并使用它们来回答有关这些产品的问题。另一方面，Doc 并不熟悉某些旧版产品的文档。例如，Doc 不使用SnapDrive for UNIX文档来提供答案。在整个 Beta 阶段，我们都在努力完善 Doc 的知识。如果您需要 Doc 所没有的信息，请发送电子邮件至 mailto:ng-doccomments@netapp.com[告知我们]。</block>
+  <block id="80fa76d524e6703e34b8caffc21c9017" category="list-text">如果您想更改主题（例如，想询问其他产品），请清除聊天记录以开始新的会话。如果您在开始新主题之前没有清除聊天记录，可能会得到不准确的结果。</block>
 </blocks>
