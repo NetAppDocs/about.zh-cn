@@ -54,7 +54,6 @@
   <block id="ed014929fa6d1e2a7b2cd335f40c42b6" category="list-text">1时59分</block>
   <block id="371c69895ec495bb0ba900238d0dfde0" category="list-text">2时18分</block>
   <block id="47a2020d68d5f7d8f999b3bf89a03c1a" category="list-text">2时28分</block>
-  <block id="7cfd7e3238c2a852ea2f82c03119feb6" category="paragraph">此测试版的Doc通过算法生成的内容可能包含错误或不准确之处。所有生成的内容应仅用作起点。您应始终参考NetApp的官方产品文档来验证Doc的回答。依赖文档生成的回复的任何风险均由您自行承担、NetApp对仅使用文档生成的回复可能发生的任何问题或困难概不负责。</block>
   <block id="229eb04083e06f419f9ac494329f957d" category="section-title">条件</block>
   <block id="ed9f05b554b94c74deffa021f0c45818" category="paragraph">使用Doc即表示您同意在生成内容和回复时遵守以下规则和规定。如果不遵守这些条款、可能会导致无法使用Doc.</block>
   <block id="1492b263677041177b75767d2dbc780b" category="list-text">请勿尝试使用Doc制作可能导致伤害、滥用、暴力或欺骗的内容。</block>
@@ -91,10 +90,10 @@
   <block id="9f1b245deb3e474f47cde2de8fa217be" category="list-text">为了获得最佳效果，请务必使用具体的产品名称。Doc知道您提问时在哪个页面，但这只是 Doc 在制定答案时考虑的几个因素之一。</block>
   <block id="01dc3c6efffd9690ac127c076429711d" category="summary">DOC是我们在docs.netapp.com上提供的由人工智能驱动的生成性助手。DOC旨在使用docs.docs.com上发布的内容来回答有关NetApp产品的问题NetApp。</block>
   <block id="80fa76d524e6703e34b8caffc21c9017" category="list-text">如果您想更改主题（例如，想询问其他产品），请清除聊天记录以开始新的会话。如果您在开始新主题之前没有清除聊天记录，可能会得到不准确的结果。</block>
-  <block id="7a94655c3185c3d5873fcad78666df26" category="admonition">在 Beta 阶段，Doc 使用 docs.netapp.com 上发布的大部分（但不是全部）内容来回答问题。 Doc 熟悉所有ONTAP、 NetApp Console、 StorageGRID、E-Series、 Keystone和SnapCenter文档，并使用它们来回答有关这些产品的问题。另一方面，Doc 不熟悉一些遗留产品的文档。例如，Doc 不使用SnapDrive for UNIX文档来提供答案。在整个 Beta 测试过程中，我们致力于完善 Doc 的知识。如果您需要 Doc 没有的信息，请发邮件至：ng-doccomments@netapp.com[让我们知道]。</block>
   <block id="bac4ca2c5b0ee617baad4e54ade4b552" category="list-text">要求 Doc 包含完成流程的步骤。不要问“如何在没有互联网的情况下安装NetApp控制台代理？”，而是尝试：</block>
   <block id="69718d2bba1514ce4734afe8fa5fba5e" category="paragraph">在没有互联网的情况下安装NetApp控制台代理应该遵循哪些步骤？</block>
   <block id="0e3e10ad9a5cb2a1201539ad3b7ea95f" category="paragraph">例如，不要询问 Doc _如何在NetApp控制台中配置勒索软件保护和备份计划？_ 而是尝试：</block>
   <block id="a4a2ff9e664b60a6bdd6cdbe4fcc1447" category="paragraph">在NetApp控制台中配置勒索软件保护的步骤是什么？</block>
   <block id="98d95c2ccd0fa7f85c70c1ac654e2ac2" category="paragraph">在NetApp控制台中配置备份计划的步骤是什么？</block>
+  <block id="c1dd50d72cdca10e54e035173567497f" category="paragraph">Doc 生成的算法内容可能包含错误或不准确之处。所有生成的内容仅应作为起点。您应该始终参考 NetApp 的官方产品文档来验证 Doc 的回复。您自行承担依赖 Doc 生成的响应的风险， NetApp对仅使用 Doc 生成的响应可能出现的任何问题或困难概不负责。</block>
 </blocks>
