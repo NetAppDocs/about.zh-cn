@@ -19,6 +19,7 @@ DOC可以根据以前的问题构建答案、建议其他问题、并说明如�
 
 
 
+[[scope-and-limitations]]
 == 范围和限制
 
 Doc 只能回答基于 docs.netapp.com 上发布的内容的问题。
@@ -30,6 +31,7 @@ Doc 只能回答基于 docs.netapp.com 上发布的内容的问题。
 
 
 
+[[writing-good-prompts]]
 == 编写良好的提示
 
 请按照以下提示操作、以获得最佳的Doc体验。
@@ -87,6 +89,7 @@ Doc 只能回答基于 docs.netapp.com 上发布的内容的问题。
 
 
 
+[[feedback]]
 == 反馈
 
 我们正在努力不断改进Doc.请在Doc的聊天窗口内向我们发送反馈。如果Doc的回答准确且有用、或者不完整或不充分、请告知我们。如果您对NetApp的能力或回复有任何疑问或顾虑、也可以发送电子邮件至：ng—doccomments@Doc.com[联系我们]。
