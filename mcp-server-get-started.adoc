@@ -1,0 +1,244 @@
+---
+sidebar: sidebar 
+permalink: mcp-server-get-started.html 
+keywords:  
+summary:  
+---
+= 开始使用 docs.netapp.com MCP 服务器
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+将您的 AI 开发环境连接到 docs.netapp.com 模型上下文协议 (MCP) 服务器。配置 MCP 服务器后，使用它从已发布的 NetApp 文档中返回有依据的答案。
+
+
+
+[[prerequisites]]
+== 前提条件
+
+在配置 docs.netapp.com MCP 服务器之前，请验证以下内容：
+
+* 您已查看 link:mcp-server-learn.html["了解 docs.netapp.com MCP 服务器"] 中的要求和限制。
+* 您可以访问受支持的 MCP 兼容客户端，例如带有 GitHub Copilot 的 Visual Studio Code、Claude Desktop、Cursor 或基于 Python 的代理框架。
+* 您必须拥有有效的订阅密钥。如果您不提供密钥，MCP 请求将失败并返回访问错误。要申请订阅密钥，请联系 ng-docs-mcp@netapp.com，并简要说明您的用例。
+* 您可以通过网络访问 docs.netapp.com MCP 端点： `\https://docs.netapp.com/mcp`。
+
+
+
+
+[[configure-your-development-environment]]
+== 配置开发环境
+
+请为您的环境选择设置选项。
+
+* <<Visual Studio Code 设置>>
+* <<Python AI agent 集成>>
+* <<Claude Desktop 配置>>
+* <<光标配置>>
+
+
+
+
+[[visual-studio-code-setup]]
+=== Visual Studio Code 设置
+
+您可以通过配置  `mcp.json` 文件，使用 GitHub Copilot 从 Visual Studio Code 连接到 MCP 服务器。
+
+.开始之前
+* 此任务需要启用 GitHub Copilot 扩展的 Visual Studio Code。
+
+
+.步骤
+. 在 Visual Studio Code 中的项目工作区中，完成以下操作：
++
+.. 创建名为 `.vscode`的文件夹
+.. 在文件夹中创建一个名为 `mcp.json`的文件
+
+
+. 配置 `mcp.json`文件。
++
+[source, json]
+----
+{
+  "servers": {
+    "netapp-docs-mcp": {
+      "type": "http",
+      "url": "https://docs.netapp.com/mcp",
+      "headers": {
+        "Ocp-Apim-Subscription-Key": "${input:Ocp-Apim-Subscription-Key}"
+      }
+    }
+  },
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "Ocp-Apim-Subscription-Key",
+      "description": "Enter your access key",
+      "password": true
+    }
+  ]
+}
+----
+. 保存文件。
+. 或者，配置全局访问。
++
+若要在所有 Visual Studio Code 项目和工作区中配置 docs.netapp.com MCP 服务器，请将配置添加到全局用户设置目录。
+
++
+** *Windows*： `C:\Users\<your_username>\AppData\Roaming\Code\User\mcp.json`
+** *macOS*： `~/Library/Application Support/Code/User/mcp.json`
++
+添加服务器定义：
+
++
+[source, json]
+----
+{
+  "servers": {
+    "netapp-docs-mcp": {
+      "type": "http",
+      "url": "https://docs.netapp.com/mcp",
+      "headers": {
+        "Ocp-Apim-Subscription-Key": "${input:Ocp-Apim-Subscription-Key}"
+      }
+    }
+  },
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "Ocp-Apim-Subscription-Key",
+      "description": "Enter your access key",
+      "password": true
+    }
+  ]
+}
+----
++
+
+NOTE: 修改全局 `mcp.json`文件后，重新启动 Visual Studio Code 以应用配置。
+
+
+
+. 验证配置。
++
+.. 在工作区中打开 Visual Studio Code。
+.. 确认 `.vscode/mcp.json`文件存在。
+.. 使用 Copilot 提问。
++
+.示例
+_ONTAP 和 Cloud Volumes ONTAP 有何区别？_
+
+
+
+
+
+
+
+[[python-ai-agent-integration]]
+=== Python AI agent 集成
+
+如果您正在构建直接调用 MCP 服务器的应用程序或 AI 代理，请使用此选项。
+
+客户端连接到 MCP 端点并调用工具。
+
+[source, python]
+----
+client = MCPClient("https://docs.netapp.com/mcp",
+  headers={
+          "Ocp-Apim-Subscription-Key": "<YOUR_API_KEY>"
+      }
+  )
+response = client.call_tool("netapp_docs_ask", {
+    "question": "What are ONTAP upgrade steps?"
+})
+
+----
+
+
+[[claude-desktop-configuration]]
+=== Claude Desktop 配置
+
+要向 Claude Desktop 注册 docs.netapp.com MCP server，请更新 MCP 配置文件：
+
+* *macOS*： `~/Library/Application Support/Claude/claude_desktop_config.json`
+* *Windows*： `%APPDATA%\Claude\claude_desktop_config.json`
+
+
+[source, json]
+----
+{
+  "mcpServers": {
+    "netapp-docs-mcp": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote",
+        "https://docs.netapp.com/mcp",
+        "--header",
+        "Ocp-Apim-Subscription-Key:${NETAPP_MCP_KEY}"
+      ],
+      "env": {
+        "NETAPP_MCP_KEY": "paste-your-subscription-key-here"
+      }
+    }
+  }
+}
+----
+
+
+[[cursor-configuration]]
+=== 光标配置
+
+要使用 Cursor 注册 docs.netapp.com MCP 服务器，请更新 MCP 配置文件。
+
+要全局应用配置，请使用以下路径：
+
+* *Mac OS*： `~/.cursor/mcp.json`
+* *Windows*： `%USERPROFILE%\.cursor\mcp.json`
+
+
+要在单个项目中应用配置，请在项目根目录中使用  `.cursor/mcp.json`。
+
+
+NOTE: 如果该文件已配置了其他 MCP 服务器，请在现有的  `mcpServers` 对象内添加  `netapp-docs-mcp`（请务必在上一条目后添加逗号）。如果没有  `mcpServers` 键，请在顶层与其他任何设置相邻的位置添加该键。
+
+[source, json]
+----
+{
+  "mcpServers": {
+    "netapp-docs-mcp": {
+      "url": "https://docs.netapp.com/mcp",
+      "headers": {
+        "Ocp-Apim-Subscription-Key": "paste-your-subscription-key-here"
+      }
+    }
+  }
+}
+----
+
+
+[[use-the-docs-netapp-com-mcp-server]]
+== 使用 docs.netapp.com MCP 服务器
+
+配置 MCP 服务器后，您可以直接在 Visual Studio Code 或所选客户端界面中与 NetApp 技术文档进行交互。
+
+.关于此任务
+* AI 客户端会根据您的查询选择合适的工具来提供结果。
+* 使用清晰、完整的问题，而不是简短或模糊的问题。
+* 回复始终以官方 NetApp 文档为基础。
+
+
+.步骤
+. 在您首选的 MCP 兼容客户端上打开聊天。
+. 调用已配置的 MCP 服务器，并询问有关 NetApp 产品或过程的明确问题。
+. 请查看有据可依的回复。
+
+
+.相关信息
+* link:mcp-developer-reference.html["开发者参考"]
+

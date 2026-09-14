@@ -17,5 +17,13 @@ sidebar:
       url: "/doc-gen-ai-assistant.html"
     - title: 使用条款
       url: "/doc-gen-ai-assistant-terms-of-use.html"
+  - title: docs.netapp.com MCP 服务器
+    entries:
+    - title: 学习
+      url: "/mcp-server-learn.html"
+    - title: 开始使用
+      url: "/mcp-server-get-started.html"
+    - title: 开发者参考
+      url: "/mcp-developer-reference.html"
   - title: 法律声明
     url: "/legal-notices.html"

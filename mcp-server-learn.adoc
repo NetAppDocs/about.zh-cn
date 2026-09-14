@@ -1,0 +1,74 @@
+---
+sidebar: sidebar 
+permalink: mcp-server-learn.html 
+keywords:  
+summary:  
+---
+= 了解 docs.netapp.com MCP 服务器
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+docs.netapp.com 模型上下文协议 (MCP) 服务器在现有 NetApp 文档和检索增强生成 (RAG) 服务之前提供标准化的、代理就绪的集成层。它允许 AI 代理使用自然语言与企业技术知识进行交互，而无需直接进行 REST API 集成或自定义管道开发。
+
+
+
+[[use-cases]]
+== 使用情形
+
+通过提供对 NetApp 文档的结构化访问，docs.netapp.com MCP 服务器使 AI 代理能够：
+
+* 查看相关文档
+* 检索完整文档内容
+* 根据文档生成答案（基于 RAG 的答案生成）
+* 生成有根据、可验证的回复
+
+
+您可以使用 docs.netapp.com MCP 服务器：
+
+* 使用 NetApp 内容增强 agentic 开发环境。
+* 支持需要可信文档的工程和支持工作流程。
+* 减少构建和维护自定义搜索、检索或 RAG 集成的需要。
+* 提供以官方 NetApp 文档为基础的答案。
+
+
+
+
+[[how-the-docs-netapp-com-mcp-server-works]]
+== docs.netapp.com MCP 服务器的工作原理
+
+MCP 服务器充当官方 NetApp 文档的接口，并从已发布的内容中返回基于事实的答案。
+
+. AI 代理向 MCP 服务器发送请求。
+. MCP 服务器检索相关文档。
+. 系统返回结构化的、有依据的响应。
+
+
+
+
+[[requirements]]
+== 要求
+
+* 访问 MCP 服务器需要订阅密钥。要申请密钥，请联系 ng-docs-mcp@netapp.com，并简要说明您的使用场景。
+* 支持的客户端包括兼容 MCP 的环境，例如带有 GitHub Copilot 的 Visual Studio Code、Claude Desktop、Cursor 和基于 Python 的代理框架。
+* 您必须遵守适用的 NetApp 文档使用条款和访问治理政策。
+
+
+
+
+[[limitations]]
+== 限制
+
+* MCP 服务器查询发布到 docs.netapp.com 的内容。它不访问私有租户数据或内部用户配置文件信息。
+* 内容仅限于发布到 docs.netapp.com/cn 的内容，不能替代产品遥测、集群状态或其他特定于环境的数据源。
+* 回复质量可能会受到客户端代理如何使用可用工具和跟进搜索结果的影响。
+* 该服务无状态地部署在可扩展的云基础设施上，因此延迟和新鲜度取决于下游文档和 RAG 服务。
+
+
+.下一步是什么？
+xref:mcp-server-get-started.html[开始使用 docs.netapp.com MCP 服务器]
