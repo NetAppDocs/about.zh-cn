@@ -59,7 +59,7 @@ docs.netapp.com MCP 服务器提供了一个用于文档发现和检索的小型
 
 服务器当前提供了以下工具：
 
-* `netapp_docs_ask`：使用检索增强生成工作流生成基于文档的答案。
+* `netapp_docs_ask`：使用检索增强生成工作流从发布到 docs.netapp.com 的内容中生成答案。
 * `netapp_docs_search`：使用关键字和自然语言查询发现相关 NetApp 文档页面。
 * `netapp_docs_fetch`：检索特定文档页面或文章的结构化内容。
 * `health_check`：验证 MCP 服务器的可用性。

@@ -14,7 +14,7 @@ summary:
 
 
 [role="lead"]
-将您的 AI 开发环境连接到 docs.netapp.com 模型上下文协议 (MCP) 服务器。配置 MCP 服务器后，使用它从已发布的 NetApp 文档中返回有依据的答案。
+将您的 AI 开发环境连接到 docs.netapp.com 模型上下文协议 (MCP) 服务器。配置 MCP 服务器后，您可以使用它返回源自 docs.netapp.com 上发布的技术产品文档的答案。
 
 
 
@@ -37,9 +37,9 @@ summary:
 请为您的环境选择设置选项。
 
 * <<Visual Studio Code 设置>>
-* <<Python AI agent 集成>>
 * <<Claude Desktop 配置>>
 * <<光标配置>>
+* <<Python AI agent 集成>>
 
 
 
@@ -139,27 +139,6 @@ _ONTAP 和 Cloud Volumes ONTAP 有何区别？_
 
 
 
-[[python-ai-agent-integration]]
-=== Python AI agent 集成
-
-如果您正在构建直接调用 MCP 服务器的应用程序或 AI 代理，请使用此选项。
-
-客户端连接到 MCP 端点并调用工具。
-
-[source, python]
-----
-client = MCPClient("https://docs.netapp.com/mcp",
-  headers={
-          "Ocp-Apim-Subscription-Key": "<YOUR_API_KEY>"
-      }
-  )
-response = client.call_tool("netapp_docs_ask", {
-    "question": "What are ONTAP upgrade steps?"
-})
-
-----
-
-
 [[claude-desktop-configuration]]
 === Claude Desktop 配置
 
@@ -222,21 +201,42 @@ NOTE: 如果该文件已配置了其他 MCP 服务器，请在现有的  `mcpSer
 ----
 
 
+[[python-ai-agent-integration]]
+=== Python AI agent 集成
+
+如果您正在构建直接调用 MCP 服务器的应用程序或 AI 代理，请使用此选项。
+
+客户端连接到 MCP 端点并调用工具。
+
+[source, python]
+----
+client = MCPClient("https://docs.netapp.com/mcp",
+  headers={
+          "Ocp-Apim-Subscription-Key": "<YOUR_API_KEY>"
+      }
+  )
+response = client.call_tool("netapp_docs_ask", {
+    "question": "What are ONTAP upgrade steps?"
+})
+
+----
+
+
 [[use-the-docs-netapp-com-mcp-server]]
 == 使用 docs.netapp.com MCP 服务器
 
-配置 MCP 服务器后，您可以直接在 Visual Studio Code 或所选客户端界面中与 NetApp 技术文档进行交互。
+配置 MCP 服务器后，您可以直接在首选的客户端界面中与 NetApp 技术文档进行交互。
 
 .关于此任务
 * AI 客户端会根据您的查询选择合适的工具来提供结果。
 * 使用清晰、完整的问题，而不是简短或模糊的问题。
-* 回复始终以官方 NetApp 文档为基础。
+* 回复始终来自官方 NetApp 文档。
 
 
 .步骤
 . 在您首选的 MCP 兼容客户端上打开聊天。
 . 调用已配置的 MCP 服务器，并询问有关 NetApp 产品或过程的明确问题。
-. 请查看有据可依的回复。
+. 请查看该回复。
 
 
 .相关信息

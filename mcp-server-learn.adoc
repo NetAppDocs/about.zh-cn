@@ -23,10 +23,10 @@ docs.netapp.com 模型上下文协议 (MCP) 服务器在现有 NetApp 文档和�
 
 通过提供对 NetApp 文档的结构化访问，docs.netapp.com MCP 服务器使 AI 代理能够：
 
-* 查看相关文档
-* 检索完整文档内容
-* 根据文档生成答案（基于 RAG 的答案生成）
-* 生成有根据、可验证的回复
+* 查看相关文档。
+* 检索完整的文档内容。
+* 根据文档生成答案（基于 RAG 的答案生成）。
+* 生成可验证的回复。
 
 
 您可以使用 docs.netapp.com MCP 服务器：
@@ -34,7 +34,7 @@ docs.netapp.com 模型上下文协议 (MCP) 服务器在现有 NetApp 文档和�
 * 使用 NetApp 内容增强 agentic 开发环境。
 * 支持需要可信文档的工程和支持工作流程。
 * 减少构建和维护自定义搜索、检索或 RAG 集成的需要。
-* 提供以官方 NetApp 文档为基础的答案。
+* 提供源自官方 NetApp 文档的答案。
 
 
 
@@ -42,11 +42,11 @@ docs.netapp.com 模型上下文协议 (MCP) 服务器在现有 NetApp 文档和�
 [[how-the-docs-netapp-com-mcp-server-works]]
 == docs.netapp.com MCP 服务器的工作原理
 
-MCP 服务器充当官方 NetApp 文档的接口，并从已发布的内容中返回基于事实的答案。
+MCP 服务器充当官方 NetApp 文档的接口，并返回源自 docs.netapp.com/cn 上发布内容的答案。
 
 . AI 代理向 MCP 服务器发送请求。
 . MCP 服务器检索相关文档。
-. 系统返回结构化的、有依据的响应。
+. 此系统返回结构化响应。
 
 
 
